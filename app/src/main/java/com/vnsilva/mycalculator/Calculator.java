@@ -37,6 +37,8 @@ public class Calculator extends AppCompatActivity {
     }
 
     private boolean isOperator(char op){
+        if(op == '+')
+        
         switch (op){
             case '+':
             case '-':
